@@ -913,12 +913,12 @@ label {
 .menu-area .mobile-nav-toggler {
     position: relative;
     float: right;
-    font-size: 30px;
+    font-size: 42px;
     cursor: pointer;
     line-height: 1;
     color: #c12004;
     display: none;
-    margin-top: 3px;
+    margin-top: 20px;
 }
 /* 4. Search */
 .search-popup-wrap {
