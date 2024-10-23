@@ -355,6 +355,7 @@
     .menu-area .mobile-nav-toggler {
         display: block;
     }
+    nav .logo img,
     .menu-area .mobile-nav-toggler .logo img {
         width: 172px;
         padding: 0;
