@@ -11,6 +11,7 @@ class HomeController extends Controller
      */
     public function index()
     {
+        echo "Hello form HomeController@index";
         return view();
     }
 
