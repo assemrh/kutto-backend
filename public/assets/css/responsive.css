@@ -575,7 +575,7 @@
 .find-wrap .find-category ul li a {
     flex-direction: row;
 }
-.find-wrap .find-category ul li a i, .find-wrap .find-category ul li a img 
+.find-wrap .find-category ul li a i, .find-wrap .find-category ul li a img
 {
     margin-right: 18px;
     margin-bottom: 0;
@@ -782,7 +782,9 @@
 .find-wrap .location input {
     width: auto;
 }
-
+.adoption-shop-area .section-title p {
+    margin-inline: 0;
+}
 }
 
 
