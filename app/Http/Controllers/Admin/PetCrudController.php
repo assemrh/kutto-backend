@@ -21,7 +21,7 @@ class PetCrudController extends CrudController
 
     /**
      * Configure the CrudPanel object. Apply settings to all operations.
-     * 
+     *
      * @return void
      */
     public function setup()
@@ -29,18 +29,29 @@ class PetCrudController extends CrudController
         CRUD::setModel(\App\Models\Pet::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/pet');
         CRUD::setEntityNameStrings('pet', 'pets');
+        CRUD::field([   // Upload
+            'name'      => 'image',
+            'label'     => 'Image',
+            'type'      => 'upload',
+            'withFiles' => true
+            ]);
     }
 
     /**
      * Define what happens when the List operation is loaded.
-     * 
+     *
      * @see  https://backpackforlaravel.com/docs/crud-operation-list-entries
      * @return void
      */
     protected function setupListOperation()
     {
         CRUD::setFromDb(); // set columns from db columns.
-
+        CRUD::field([   // Upload
+            'name'      => 'image',
+            'label'     => 'Image',
+            'type'      => 'upload',
+            'withFiles' => true
+            ]);
         /**
          * Columns can be defined using the fluent syntax:
          * - CRUD::column('price')->type('number');
@@ -49,7 +60,7 @@ class PetCrudController extends CrudController
 
     /**
      * Define what happens when the Create operation is loaded.
-     * 
+     *
      * @see https://backpackforlaravel.com/docs/crud-operation-create
      * @return void
      */
@@ -57,7 +68,12 @@ class PetCrudController extends CrudController
     {
         CRUD::setValidation(PetRequest::class);
         CRUD::setFromDb(); // set fields from db columns.
-
+        CRUD::field([   // Upload
+            'name'      => 'image',
+            'label'     => 'Image',
+            'type'      => 'upload',
+            'withFiles' => true
+            ]);
         /**
          * Fields can be defined using the fluent syntax:
          * - CRUD::field('price')->type('number');
@@ -66,7 +82,7 @@ class PetCrudController extends CrudController
 
     /**
      * Define what happens when the Update operation is loaded.
-     * 
+     *
      * @see https://backpackforlaravel.com/docs/crud-operation-update
      * @return void
      */
