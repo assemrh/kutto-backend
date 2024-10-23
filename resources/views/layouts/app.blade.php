@@ -91,6 +91,7 @@
     <script src="{{ asset('js/jquery.appear.js') }}"></script>
     <script src="{{ asset('js/wow.min.js') }}"></script>
     <script src="{{ asset('js/plugins.js') }}"></script>
+    <script src="{{ asset('js/slick.js') }}"></script>
     <script src="{{ asset('js/main.js') }}"></script>
 
     <script>
@@ -166,14 +167,14 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    @stack('scripts')
 
     <script>
         $(function() {
             console.log("ready!");
             $('#preloader').delay(0).fadeOut();
         });
-    </script>
+        </script>
+        @stack('scripts')
 </body>
 
 </html>
