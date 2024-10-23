@@ -48,18 +48,18 @@
     -->
     <!-- <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> -->
 
-    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('css/animate.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('css/magnific-popup.css')}}">
-    <link rel="stylesheet" href="{{ asset('css/fontawesome-all.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('css/nice-select.css')}}">
-    <link rel="stylesheet" href="{{ asset('css/flaticon.css')}}">
-    <link rel="stylesheet" href="{{ asset('css/jquery-ui.css')}}">
-    <link rel="stylesheet" href="{{ asset('css/slick.css')}}">
-    <link rel="stylesheet" href="{{ asset('css/default.css')}}">
-    <link rel="stylesheet" href="{{ asset('css/style.css')}}">
-    <link rel="stylesheet" href="{{ asset('css/responsive.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/animate.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/fontawesome-all.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/nice-select.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/flaticon.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/jquery-ui.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/slick.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/default.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
 
 </head>
 
@@ -78,20 +78,20 @@
     <!-- Scroll-top-end-->
 
     <!-- <script src="js/vendor/jquery-3.6.0.min.js"></script> -->
-    <script src="{{ asset('js/vendor/jquery-1.12.4.min.js')}}"></script>
-    <script src="{{ asset('js/bootstrap.min.js')}}"></script>
-    <script src="{{ asset('js/isotope.pkgd.min.js')}}"></script>
-    <script src="{{ asset('js/imagesloaded.pkgd.min.js')}}"></script>
-    <script src="{{ asset('js/jquery.magnific-popup.min.js')}}"></script>
-    <script src="{{ asset('js/owl.carousel.min.js')}}"></script>
-    <script src="{{ asset('js/jquery.counterup.min.js')}}"></script>
-    <script src="{{ asset('js/jquery.waypoints.min.js')}}"></script>
-    <script src="{{ asset('js/jquery.nice-select.min.js')}}"></script>
-    <script src="{{ asset('js/jquery-ui.min.js')}}"></script>
-    <script src="{{ asset('js/jquery.appear.js')}}"></script>
-    <script src="{{ asset('js/wow.min.js')}}"></script>
-    <script src="{{ asset('js/plugins.js')}}"></script>
-    <script src="{{ asset('js/main.js')}}"></script>
+    <script src="{{ asset('js/vendor/jquery-1.12.4.min.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('js/isotope.pkgd.min.js') }}"></script>
+    <script src="{{ asset('js/imagesloaded.pkgd.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.counterup.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.waypoints.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.nice-select.min.js') }}"></script>
+    <script src="{{ asset('js/jquery-ui.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.appear.js') }}"></script>
+    <script src="{{ asset('js/wow.min.js') }}"></script>
+    <script src="{{ asset('js/plugins.js') }}"></script>
+    <script src="{{ asset('js/main.js') }}"></script>
 
     <script>
         const handleActive = (e) => {
@@ -110,9 +110,9 @@
     <script>
         //SubMenu Dropdown Toggle
         /* if ($('.menu-area li. ul').length) {
-        $('.menu-area .navigation li.').append('<div class="dropdown-btn"><span class="fas fa-angle-down"></span></div>');
+            $('.menu-area .navigation li.').append('<div class="dropdown-btn"><span class="fas fa-angle-down"></span></div>');
 
-    } */
+        } */
         if ($(".mobile-menu").length) {
             var mobileMenuContent = $(".menu-area .main-menu").html();
             $(".mobile-menu .menu-box .menu-outer").append(mobileMenuContent);
@@ -123,29 +123,29 @@
             // 	$(this).prev('ul').slideToggle(500);
             // });
             //Menu Toggle Btn
-            $(".mobile-nav-toggler").on("click", function () {
+            $(".mobile-nav-toggler").on("click", function() {
                 $("body").addClass("mobile-menu-visible");
             });
 
             //Menu Toggle Btn
-            $(".menu-backdrop, .mobile-menu .close-btn").on("click", function () {
+            $(".menu-backdrop, .mobile-menu .close-btn").on("click", function() {
                 $("body").removeClass("mobile-menu-visible");
             });
         }
 
-        $(".navbar-toggle").on("click", function () {
+        $(".navbar-toggle").on("click", function() {
             $(".navbar-nav").addClass("mobile_menu");
         });
-        $(".navbar-nav li a").on("click", function () {
+        $(".navbar-nav li a").on("click", function() {
             $(".navbar-collapse").removeClass("show");
         });
 
-        $(".header-search > a").on("click", function () {
+        $(".header-search > a").on("click", function() {
             $(".search-popup-wrap").slideToggle();
             return false;
         });
 
-        $(".search-close").on("click", function () {
+        $(".search-close").on("click", function() {
             $(".search-popup-wrap").slideUp(500);
         });
     </script>
@@ -166,6 +166,12 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+        $(function() {
+            console.log("ready!");
+            $('#preloader').delay(0).fadeOut();
+        });
+    </script>
 </body>
 
 </html>
