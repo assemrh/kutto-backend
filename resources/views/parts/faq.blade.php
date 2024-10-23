@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-5">
-                <img src="{{ asset('img/images/smiley-woman-playing-with-dog-up-adoption.jpg') }}"
+                <img src="{{ asset('assets/img/images/smiley-woman-playing-with-dog-up-adoption.jpg') }}"
                     class="img-fluid float-left d-block" style="min-height: 60vh; object-fit: cover;  border-radius:18px "
                     alt="" >
             </div>
@@ -81,6 +81,6 @@
         </div>
     </div>
     <div class="faq-shape">
-        <img src="{{ asset('img/images/faq_shape.png') }}" alt="" >
+        <img src="{{ asset('assets/img/images/faq_shape.png') }}" alt="" >
     </div>
 </section>

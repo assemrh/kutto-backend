@@ -8,21 +8,21 @@
                             <ul>
                                 <li>
                                     <a href="/shop">
-                                        <img src="{{ asset('/img/icon/1453web-03.png') }}" style="width: 50PX"
+                                        <img src="{{ asset('assets/img/icon/1453web-03.png') }}" style="width: 50PX"
                                             alt="" >
                                         Make a donation
                                     </a>
                                 </li>
                                 <li>
                                     <a href="/shop">
-                                        <img src="{{ asset('/img/icon/1453web-04.png') }}" style="width: 50PX"
+                                        <img src="{{ asset('assets/img/icon/1453web-04.png') }}" style="width: 50PX"
                                             alt="" >
                                         Adopt
                                     </a>
                                 </li>
                                 <li>
                                     <a href="/shop">
-                                        <img src="{{ asset('/img/icon/1453web-02.png') }}" style="width: 50PX"
+                                        <img src="{{ asset('assets/img/icon/1453web-02.png') }}" style="width: 50PX"
                                             alt="" >
                                         Become a sponsor
                                     </a>

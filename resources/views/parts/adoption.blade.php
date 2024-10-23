@@ -3,7 +3,7 @@
         <div class="row align-items-center align-items-xl-end justify-content-center">
             <div class="col-xl-7 col-lg-6 col-md-10 order-0 order-lg-2">
                 <div class="adoption-img">
-                    <img src="{{ asset('/img/images/close-up-adorable-cocker-spaniel.jpg') }}" alt="" >
+                    <img src="{{ asset('assets/img/images/close-up-adorable-cocker-spaniel.jpg') }}" alt="" >
                 </div>
             </div>
             <div class="col-xl-5 col-lg-6">
@@ -13,11 +13,11 @@
                         Every day, our furry friends on the streets struggle to survive and need your help. Be their
                         hope by adopting or sponsoring, and make a difference in their lives!
                     </p>
-                    <a href="/adoption" class="btn">Adoption <img src="{{ asset('/img/icon/w_pawprint.png') }}"
+                    <a href="/adoption" class="btn">Adoption <img src="{{ asset('assets/img/icon/w_pawprint.png') }}"
                             alt="" ></a>
                 </div>
             </div>
         </div>
     </div>
-    <div class="adoption-shape"><img src="{{ asset('img/images/adoption_shape.png') }}" alt="" ></div>
+    <div class="adoption-shape"><img src="{{ asset('assets/img/images/adoption_shape.png') }}" alt="" ></div>
 </section>

@@ -6,7 +6,7 @@
                     <div class="footer-widget">
                         <div class="f-logo">
                             <a href="/">
-                                <img src="{{ asset('/img/logo/1453sokakhayvanlar-logo-16.png') }}" alt=""
+                                <img src="{{ asset('assets/img/logo/1453sokakhayvanlar-logo-16.png') }}" alt=""
                                     style=" width: 256px " >
                             </a>
                         </div>
@@ -115,32 +115,32 @@
                             <ul>
                                 <li>
                                     <a href="#">
-                                        <img src="{{ asset('img/images/insta_img01.png') }}" alt="" >
+                                        <img src="{{ asset('assets/img/images/insta_img01.png') }}" alt="" >
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="{{ asset('img/images/insta_img02.png') }}" alt="" >
+                                        <img src="{{ asset('assets/img/images/insta_img02.png') }}" alt="" >
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="{{ asset('img/images/insta_img03.png') }}" alt="" >
+                                        <img src="{{ asset('assets/img/images/insta_img03.png') }}" alt="" >
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="{{ asset('img/images/insta_img04.png') }}" alt="" >
+                                        <img src="{{ asset('assets/img/images/insta_img04.png') }}" alt="" >
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="{{ asset('img/images/insta_img05.png') }}" alt="" >
+                                        <img src="{{ asset('assets/img/images/insta_img05.png') }}" alt="" >
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="{{ asset('img/images/insta_img06.png') }}" alt="" >
+                                        <img src="{{ asset('assets/img/images/insta_img06.png') }}" alt="" >
                                     </a>
                                 </li>
                             </ul>
@@ -150,10 +150,10 @@
             </div>
         </div>
         <div class="footer-shape">
-            <img src="{{ asset('img/images/footer_shape01.png') }}" alt="" >
+            <img src="{{ asset('assets/img/images/footer_shape01.png') }}" alt="" >
         </div>
         <div class="footer-shape shape-two">
-            <img src="{{ asset('img/images/footer_shape02.png') }}" alt="" >
+            <img src="{{ asset('assets/img/images/footer_shape02.png') }}" alt="" >
         </div>
     </div>
     <div class="copyright-area">
@@ -169,19 +169,19 @@
                         <div class="dropdown">
                             <button class="dropdown-toggle" type="button" id="dropdownMenuButton2"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img src="{{ asset('img/icon/united-states.png') }}" alt="" > English
+                                <img src="{{ asset('assets/img/icon/united-states.png') }}" alt="" > English
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
                                 <Link class="dropdown-item" to="/">
-                                <img src="{{ asset('img/icon/russia.png') }}" alt="" >
+                                <img src="{{ asset('assets/img/icon/russia.png') }}" alt="" >
                                 Russia
                                 </a>
                                 <Link class="dropdown-item" to="/">
-                                <img src="{{ asset('img/icon//thailand.png') }}" alt="" >
+                                <img src="{{ asset('assets/img/icon//thailand.png') }}" alt="" >
                                 Thailand
                                 </a>
                                 <Link class="dropdown-item" to="/">
-                                <img src="{{ asset('img/icon/india.png') }}" alt="" >
+                                <img src="{{ asset('assets/img/icon/india.png') }}" alt="" >
                                 India
                                 </a>
                             </div>

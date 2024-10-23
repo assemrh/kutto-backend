@@ -14,7 +14,7 @@
             <div class="col-xl-7 col-lg-9">
                 <div class="section-title text-center mb-65">
                     <div class="section-icon">
-                        <img src="{{ asset('img/icon/pawprint.png') }}" alt="" >
+                        <img src="{{ asset('assets/img/icon/pawprint.png') }}" alt="" >
                     </div>
                     <h5 class="sub-title">Meet the animals</h5>
                     <h2 class="title">
@@ -37,7 +37,7 @@
                         <div class="adoption-shop-thumb">
                             <img src="{{ $item['img'] }}" alt="" >
                             <a href="/shop-details" class="btn">
-                                Adoption <img src="{{ asset('/img/icon/w_pawprint.png') }}" alt="" >
+                                Adoption <img src="{{ asset('assets/img/icon/w_pawprint.png') }}" alt="" >
                             </a>
                         </div>
                         <div class="adoption-shop-content">

@@ -1,5 +1,5 @@
 <section class="slider-area">
-    <div class="slider slider-active" >
+    <div class="slider slider-active">
         <div class="slide">
             <div class="single-slider slider-bg d-flex align-items-center"
                 style="background-image: url('/img/slider/1453webcltuo-05.jpg')">
@@ -27,7 +27,8 @@
                                     </p>
                                 </div>
                                 <a href="/doglist" class="btn" data-animation="fadeInUpBig" data-delay=".6s"
-                                    data-duration="1.2s">View More <img src="img/icon/w_pawprint.png" alt="" />
+                                    data-duration="1.2s">View More <img src="{{ asset('assets/img/icon/w_pawprint.png') }}"
+                                        alt="" />
                                 </a>
                             </div>
                         </div>
@@ -40,7 +41,6 @@
 </section>
 
 @push('scripts')
-
     <script type="text/javascript">
         $(document).ready(function() {
             $('.slider').slick({
