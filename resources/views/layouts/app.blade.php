@@ -91,7 +91,7 @@
     <script src="{{ asset('js/jquery.appear.js') }}"></script>
     <script src="{{ asset('js/wow.min.js') }}"></script>
     <script src="{{ asset('js/plugins.js') }}"></script>
-    <script src="{{ asset('js/slick.js') }}"></script>
+    <script src="{{ asset('js/slick.min.js') }}"></script>
     <script src="{{ asset('js/main.js') }}"></script>
 
     <script>
