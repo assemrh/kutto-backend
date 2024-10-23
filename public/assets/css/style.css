@@ -706,6 +706,9 @@ label {
 }
 .nav-logo img {
     width: 150px;
+
+}
+ nav .logo img {
     width: 256px;
     padding: 18px;
 }
