@@ -1,5 +1,3 @@
-@echo "Hello form app.blade.php";
-
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
@@ -151,10 +149,12 @@
             $(".search-popup-wrap").slideUp(500);
         });
     </script>
+    @include('parts.header')
 
     <main>
         @yield('content')
     </main>
+    @include('parts.footer')
 
     <!--
       This HTML file is a template.
