@@ -20,7 +20,7 @@
                     <h2 class="title">
                         Our Friends Waiting for Adoption or Sponsorship
                     </h2>
-                    <p style="margin-inline: -3rem">
+                    <p>
                         These animals are waiting for a loving family and a safe home.
                         Each of them is eager for a chance to start anew in their lives.
                         By adopting or sponsoring them, you can seize the opportunity to
