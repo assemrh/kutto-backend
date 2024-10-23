@@ -3,6 +3,7 @@
 namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
+use Backpack\CRUD\app\Library\Validation\Rules\ValidUpload;
 
 class UpdatePetRequest extends FormRequest
 {
@@ -23,6 +24,8 @@ class UpdatePetRequest extends FormRequest
     {
         return [
             //
+            'image' => ValidUpload::field('required')
+                ->file('file|mimes:jpeg,png,jpg,gif,svg|max:2048'),
         ];
     }
 }
