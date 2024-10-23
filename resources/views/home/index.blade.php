@@ -1,5 +1,6 @@
 @extends('layouts.app')
 @section('content')
+    @include('parts.slider')
     @include('parts.find')
     @include('parts.counter')
     @include('parts.adoption')
