@@ -122,6 +122,9 @@
     .find-wrap .find-category ul::before {
         display: none;
     }
+    .find-wrap {
+        margin-top: 3rem;
+    }
     .find-wrap .find-category ul li {
         padding: 35px 20px;
         width: 33.3333%;
