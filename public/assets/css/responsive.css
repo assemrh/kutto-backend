@@ -564,7 +564,7 @@
     }
 
     .find-wrap {
-        background-color: transparent;
+        background: none;
     }
     .find-wrap .location {
         padding: 45px 35px 45px 35px;
