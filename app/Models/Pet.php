@@ -10,7 +10,20 @@ class Pet extends Model
 {
     use CrudTrait;
     use HasFactory;
-    
+
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array<int, string>
+     */
+    protected $fillable = [
+        'name',
+        'race',
+        'type',
+        'old',
+        'description',
+        'image',
+    ];
     public function setImageAttribute($value)
     {
         $attribute_name = "image";
