@@ -1,21 +1,21 @@
-<section className="slider-area">
-    <div className="slide slider-active" >
-        <div>
-            <div className="single-slider slider-bg d-flex align-items-center"
+<section class="slider-area">
+    <div class="slider slider-active" >
+        <div class="slide">
+            <div class="single-slider slider-bg d-flex align-items-center"
                 style="background-image: url('/img/slider/1453webcltuo-05.jpg')">
-                <div className="container-xl custom-container">
-                    <div className="row">
-                        <div className="col-xl-7 col-lg-7 col-md-10">
-                            <div className="slider-content">
-                                <div className="slider-title">
-                                    <h2 className="title" data-animation="fadeInUpBig" data-delay=".2s"
+                <div class="container-xl custom-container">
+                    <div class="row">
+                        <div class="col-xl-7 col-lg-7 col-md-10">
+                            <div class="slider-content">
+                                <div class="slider-title">
+                                    <h2 class="title" data-animation="fadeInUpBig" data-delay=".2s"
                                         data-duration="1.2s">
                                         Every animal needs <span>love</span>, and every person needs a
                                         <span>friend</span>.
                                     </h2>
                                 </div>
-                                <div className="slider-desc">
-                                    <p className="desc" data-animation="fadeInUpBig" data-delay=".4s"
+                                <div class="slider-desc">
+                                    <p class="desc" data-animation="fadeInUpBig" data-delay=".4s"
                                         data-duration="1.2s">
                                         You can make a big difference in the life of a stray animal by giving them a
                                         home.<br /> Share your love, gain a new friend, and create unforgettable
@@ -26,7 +26,7 @@
 
                                     </p>
                                 </div>
-                                <Link to="/doglist" className="btn" data-animation="fadeInUpBig" data-delay=".6s"
+                                <Link to="/doglist" class="btn" data-animation="fadeInUpBig" data-delay=".6s"
                                     data-duration="1.2s">View More <img src="img/icon/w_pawprint.png" alt="" />
                                 </Link>
                             </div>
@@ -43,7 +43,7 @@
 
     <script type="text/javascript">
         $(document).ready(function() {
-            $('.slider-area').slick({
+            $('.slider').slick({
                 autoplay: false,
                 autoplaySpeed: 10000,
                 dots: false,
