@@ -560,11 +560,14 @@
         padding: 5rem 0 80px;
     }
     .find-area{
-        background-image: url('img/bg/counter_bg.jpg');
+        background-image: url('./../img/bg/counter_bg.jpg');
     }
-
+    .find-wrap .find-category ul ,
     .find-wrap {
         background: none;
+    }
+    .find-wrap {
+        margin-bottom: 1rem;
     }
     .find-wrap .location {
         padding: 45px 35px 45px 35px;
