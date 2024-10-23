@@ -1,7 +1,7 @@
 <section class="slider-area">
     <div class="slider slider-active">
         <div class="slide">
-            <div class="single-slider slider-bg d-flex align-items-center"
+            <div class="single-slider slider-bg d-flex align-items-md-center align-items-end pb-4 pb-md-0"
                 style="background-image: url('/img/slider/1453webcltuo-05.jpg')">
                 <div class="container-xl custom-container">
                     <div class="row">

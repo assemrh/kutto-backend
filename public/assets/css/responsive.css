@@ -522,13 +522,14 @@
     }
     .header-top-area {
         padding: 15px 0;
+        display: none;
     }
     .slider-content .title {
-        font-size: 36px;
+        font-size: 26px;
         line-height: 1.2;
         letter-spacing: 0;
     }
-    .slider-content .title > span {
+    .slider-content .title span {
         background-image: none;
         padding: 0;
         display: inline-flex;
