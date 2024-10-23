@@ -26,9 +26,9 @@
 
                                     </p>
                                 </div>
-                                <Link to="/doglist" class="btn" data-animation="fadeInUpBig" data-delay=".6s"
+                                <a href="/doglist" class="btn" data-animation="fadeInUpBig" data-delay=".6s"
                                     data-duration="1.2s">View More <img src="img/icon/w_pawprint.png" alt="" />
-                                </Link>
+                                </a>
                             </div>
                         </div>
                     </div>
