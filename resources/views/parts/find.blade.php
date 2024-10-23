@@ -9,21 +9,21 @@
                                 <li>
                                     <a href="/shop">
                                         <img src="{{ asset('/img/icon/1453web-03.png') }}" style="width: 50PX"
-                                            alt="" />
+                                            alt="" >
                                         Make a donation
                                     </a>
                                 </li>
                                 <li>
                                     <a href="/shop">
                                         <img src="{{ asset('/img/icon/1453web-04.png') }}" style="width: 50PX"
-                                            alt="" />
+                                            alt="" >
                                         Adopt
                                     </a>
                                 </li>
                                 <li>
                                     <a href="/shop">
                                         <img src="{{ asset('/img/icon/1453web-02.png') }}" style="width: 50PX"
-                                            alt="" />
+                                            alt="" >
                                         Become a sponsor
                                     </a>
                                 </li>

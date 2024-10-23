@@ -4,7 +4,7 @@
             <div class="col-lg-5">
                 <img src="{{ asset('img/images/smiley-woman-playing-with-dog-up-adoption.jpg') }}"
                     class="img-fluid float-left d-block" style="min-height: 60vh; object-fit: cover;  border-radius:18px "
-                    alt="" />
+                    alt="" >
             </div>
             <div class="col-lg-7 pl-4">
                 <div class="faq-wrapper">
@@ -81,6 +81,6 @@
         </div>
     </div>
     <div class="faq-shape">
-        <img src="{{ asset('img/images/faq_shape.png') }}" alt="" />
+        <img src="{{ asset('img/images/faq_shape.png') }}" alt="" >
     </div>
 </section>
