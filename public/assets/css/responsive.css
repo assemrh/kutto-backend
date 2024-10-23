@@ -557,9 +557,13 @@
     }
     .counter-bg {
         margin-top: 0;
+        padding: 5rem 0 80px;
     }
+    .find-area{
+        background-image: url('img/bg/counter_bg.jpg');
+    }
+
     .find-wrap {
-        background-image: unl('img/bg/counter_bg.jpg');
         background-color: transparent;
     }
     .find-wrap .location {

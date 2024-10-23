@@ -1,4 +1,4 @@
-<section class="counter-area counter-bg" style="background-image: url('{{ asset('img/bg/counter_bg.jpg') }}')">
+<section class="counter-area counter-bg" style="background-image: url('{{ asset('assets/img/bg/counter_bg.jpg') }}')">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-6 col-lg-8">
