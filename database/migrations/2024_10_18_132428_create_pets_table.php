@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string("name");
             $table->string("race");
             $table->string("type");
+            $table->string('image');
             $table->integer("old");
             $table->text("description");
 
