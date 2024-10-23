@@ -8,7 +8,7 @@
                             <ul>
                                 <li>
                                     <a href="/shop">
-                                        <img src="{{ asset('assets/img/icon/1453web-03.png') }}" style="width: 50PX"
+                                        <img src="{{ asset('assets/img/icon/1453web-05.png') }}" style="width: 50PX"
                                             alt="" >
                                         Make a donation
                                     </a>
