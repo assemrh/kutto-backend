@@ -796,8 +796,11 @@
     .adoption-shop-area .section-title p {
         margin-inline: 0;
     }
-    .slider-content .desc {
-        display: 0;
+    .slider-content{
+        text-align: center;
+    }
+    .slider-content .slider-desc {
+        display: none;
     }
 }
 
