@@ -54,7 +54,7 @@
                         <nav class="menu-nav show">
                             <div class="logo">
                                 <a href="/">
-                                    <img src="{{ assets('/img/logo/1453sokakhayvanlar-logo-16.png') }}" alt=""
+                                    <img src="{{ asset('/img/logo/1453sokakhayvanlar-logo-16.png') }}" alt=""
                                         style="width: 256px; padding: 18px">
                                 </a>
                             </div>
@@ -111,7 +111,7 @@
                                             <li class="d-flex align-items-start">
                                                 <div class="cart-img">
                                                     <a href="#">
-                                                        <img src="{{ assets('img/product/cart_p01.jpg') }}"
+                                                        <img src="{{ asset('img/product/cart_p01.jpg') }}"
                                                             alt="">
                                                     </a>
                                                 </div>
@@ -135,7 +135,7 @@
                                             <li class="d-flex align-items-start">
                                                 <div class="cart-img">
                                                     <a href="#">
-                                                        <img src="{{ assets('img/product/cart_p02.jpg') }}"
+                                                        <img src="{{ asset('img/product/cart_p02.jpg') }}"
                                                             alt="">
                                                     </a>
                                                 </div>
@@ -175,7 +175,7 @@
                                     <li class="header-btn">
                                         <a href="#" class="btn">
                                             Adopt Here
-                                            <img src="{{ assets('img/icon/w_pawprint.png') }}" alt="">
+                                            <img src="{{ asset('img/icon/w_pawprint.png') }}" alt="">
                                         </a>
                                     </li>
                                 </ul>
@@ -190,7 +190,7 @@
                             </div>
                             <div class="nav-logo">
                                 <a href="/">
-                                    <img src="{{ assets('img/logo/logo.png') }}" alt="" title="true">
+                                    <img src="{{ asset('img/logo/logo.png') }}" alt="" title="true">
                                 </a>
                             </div>
                             <div class="menu-outer"></div>
