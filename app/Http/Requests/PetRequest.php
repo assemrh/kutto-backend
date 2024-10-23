@@ -3,6 +3,7 @@
 namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
+use Backpack\CRUD\app\Library\Validation\Rules\ValidUpload;
 
 class PetRequest extends FormRequest
 {
