@@ -793,6 +793,9 @@
     .adoption-shop-area .section-title p {
         margin-inline: 0;
     }
+    .slider-content .desc {
+        display: 0;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
