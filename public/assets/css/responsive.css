@@ -541,7 +541,16 @@
     margin-bottom: 20px;
 }
 .slider-bg {
-    background-position: left center;
+    background-position: right center;
+
+}
+.slider-area .custom-container .row div{
+    background: rgba(184, 184, 184, 0.09);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+
 }
 .find-wrap .location {
     padding: 45px 35px 45px 35px;
