@@ -26,6 +26,8 @@ class PetRequest extends FormRequest
     {
         return [
             // 'name' => 'required|min:5|max:255'
+            'image' => ValidUpload::field('required')
+                ->file('file|mimes:jpeg,png,jpg,gif,svg|max:2048'),
         ];
     }
 
