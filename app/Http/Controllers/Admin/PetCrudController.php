@@ -65,6 +65,14 @@ class PetCrudController extends CrudController
         CRUD::setValidation(PetRequest::class);
         CRUD::setFromDb(); // set fields from db columns.
 
+        CRUD::field([   // Upload
+            'name'      => 'image',
+            'label'     => 'Image',
+            'type'      => 'upload',
+            'withFiles' => true
+
+        ]);
+
         /**
          * Fields can be defined using the fluent syntax:
          * - CRUD::field('price')->type('number');
