@@ -355,6 +355,10 @@
     .menu-area .mobile-nav-toggler {
         display: block;
     }
+    .menu-area .mobile-nav-toggler .logo img {
+        width: 172px;
+        padding: 0;
+    }
     .header-top-left ul li:first-child {
         display: none;
     }

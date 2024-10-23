@@ -55,7 +55,7 @@
                             <div class="logo">
                                 <a href="/">
                                     <img src="{{ asset('assets/img/logo/1453sokakhayvanlar-logo-16.png') }}" alt=""
-                                        style="width: 256px; padding: 18px">
+                                        >
                                 </a>
                             </div>
                             <div class="navbar-wrap main-menu d-none d-lg-flex">

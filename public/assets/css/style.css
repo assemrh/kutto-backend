@@ -706,6 +706,8 @@ label {
 }
 .nav-logo img {
     width: 150px;
+    width: 256px;
+    padding: 18px;
 }
 .mobile-menu {
     position: fixed;
