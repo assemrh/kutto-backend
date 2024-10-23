@@ -1,5 +1,5 @@
 <section className="slider-area">
-    <div className="slide slider-active" {...settings}>
+    <div className="slide slider-active" >
         <div>
             <div className="single-slider slider-bg d-flex align-items-center"
                 style="background-image: url('/img/slider/1453webcltuo-05.jpg')">
