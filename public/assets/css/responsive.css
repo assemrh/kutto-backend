@@ -545,8 +545,8 @@
         margin-bottom: 20px;
     }
     .slider-bg {
-        background-position: right center;
-        background-image: url("/assets/img/slider/mobile-slider-1.png")
+        background-position: center center;
+        background-image: url("/assets/img/slider/mobile-slider-1.jpg")
     }
     .slider-area .custom-container .row > div {
         background: rgba(0, 0, 0, 0.09);
