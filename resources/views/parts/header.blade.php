@@ -1,5 +1,5 @@
 <header>
-    <div class="header-top-area">
+    <div class="header-top-area d-none">
         <div class="container custom-container">
             <div class="row align-items-center">
                 <div class="col-md-7">
