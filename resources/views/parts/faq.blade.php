@@ -80,7 +80,5 @@
             </div>
         </div>
     </div>
-    <div class="faq-shape">
-        <img src="{{ asset('assets/img/images/faq_shape.png') }}" alt="" >
-    </div>
+
 </section>

@@ -1039,7 +1039,7 @@ nav .logo img {
 .slider-bg {
     background-position: center;
     background-size: cover;
-    min-height: 793px;
+    min-height: 720px;
     position: relative;
     background-image: url("/assets/img/slider/1453webcltuo-05.jpg");
 }
