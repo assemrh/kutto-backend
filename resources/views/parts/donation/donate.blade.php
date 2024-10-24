@@ -33,7 +33,6 @@
                 <div class="card glassy-card rounded-0">
                     <div class="card-body">
                         @include('parts.donation.donation-navs')
-                        
                     </div>
                 </div>
             </div>

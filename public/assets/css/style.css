@@ -4170,24 +4170,23 @@ nav .logo img {
 }
 .donations-section .tab-pane {
     margin-block: 3rem;
-    margin-inline: .5rem;
+    margin-inline: 0.5rem;
 }
 .donations-section .tab-pane {
     margin-block: 3rem;
-    margin-inline: .5rem;
+    margin-inline: 0.5rem;
 }
-label:has(input[type="radio"]:checked)
-{
+label:has(input[type="radio"]:checked) {
     background-color: #000;
     color: white;
 }
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
     background-color: #000;
     color: white;
 }
-.donations-section .tab-pane a,
-.donations-section .tab-pane button
- {
-    background-color: white;
+
+a,
+button {
     color: #000;
 }

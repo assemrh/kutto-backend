@@ -19,13 +19,24 @@
                 @foreach ($amounts as $key => $value)
                     <label class="label justify-content-center" for="option-{{ $key }}"
                         style="width: calc(33.33% - 1rem) ">
-                        <input class="d-none" type="radio" name="options" id="option-{{ $key }}"
+                        <input class="d-none donate-value" type="radio" name="options" id="option-{{ $key }}"
                             value="{{ $value }}" autocomplete="off">
                         {{ $value }}₺
                     </label>
                 @endforeach
             </div>
 
+            <div class="mb-3 mt-5">
+                <div class="input-group">
+                    <input type="text" class="form-control donate-value-end" aria-describedby="validatedInputGroupPrepend" required>
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="validatedInputGroupPrepend">₺</span>
+                    </div>
+                </div>
+            </div>
+            <div class="w-100 text-center mt-5">
+                <button class="nav-link btn btn-dark border-0 w-100 justify-content-center" type="button">Donate</button>
+            </div>
         </div>
     @endfor
     <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
