@@ -482,7 +482,7 @@ function counter() {
 		delay: 100,
 		time: 2000
 	});
-	
+
 }
 $('.odometer').appear(function (e) {
 	var odo = $(".odometer");

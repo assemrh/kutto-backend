@@ -67,7 +67,7 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <!-- Preloader -->
     <div id="preloader">
-        <img src="{{asset('assets/img/preloader.gif')}}" alt="">
+        <img src="{{ asset('assets/img/preloader.gif') }}" alt="">
     </div>
     <!-- Preloader-end -->
 
@@ -76,6 +76,14 @@
         <i class="fas fa-angle-up"></i>
     </button>
     <!-- Scroll-top-end-->
+
+    @include('parts.header')
+
+    <main>
+        @yield('content')
+    </main>
+    @include('parts.footer')
+
 
     <!-- <script src="js/vendor/jquery-3.6.0.min.js"></script> -->
     <script src="{{ asset('assets/js/vendor/jquery-1.12.4.min.js') }}"></script>
@@ -150,31 +158,13 @@
             $(".search-popup-wrap").slideUp(500);
         });
     </script>
-    @include('parts.header')
-
-    <main>
-        @yield('content')
-    </main>
-    @include('parts.footer')
-
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-
     <script>
         $(function() {
             console.log("ready!");
             $('#preloader').delay(0).fadeOut();
         });
-        </script>
-        @stack('scripts')
+    </script>
+    @stack('scripts')
 </body>
 
 </html>

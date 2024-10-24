@@ -229,7 +229,7 @@
                 </div>
             </div>
         </div>
-        <div class="header-shape d-none" style=" background-image:url('img/bg/header_shape.png')"></div>
+        <div class="header-shape d-none" style=" background-image:url('assets/img/bg/header_shape.png')"></div>
     </div>
 
     <div class="search-popup-wrap" tabIndex="-1" role="dialog" aria-hidden="true">
