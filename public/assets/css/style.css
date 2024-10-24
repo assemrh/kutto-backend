@@ -1041,7 +1041,7 @@ nav .logo img {
     background-size: cover;
     min-height: 793px;
     position: relative;
-    background-image: url("/assets/img/slider/1453webcltuo-05.jpg")
+    background-image: url("/assets/img/slider/1453webcltuo-05.jpg");
 }
 .slider-content {
     overflow: hidden;
@@ -4139,4 +4139,55 @@ nav .logo img {
 #preloader img {
     width: 12%;
     min-width: 120px;
+}
+
+.glassy-card {
+    /* background-color: unset !important; */
+    background: rgba(255, 255, 255, 0.65) !important;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.54);
+}
+
+.donations-section label {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #222832;
+    font-family: "IBM Plex Sans", var(--font-system);
+    text-align: center;
+    background: #fff;
+    padding: 14px 2px;
+    border-radius: 8px;
+    box-shadow: inset 0 0 0 2px #000000;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.donations-section .tab-pane {
+    margin-block: 3rem;
+    margin-inline: .5rem;
+}
+.donations-section .tab-pane {
+    margin-block: 3rem;
+    margin-inline: .5rem;
+}
+label:has(input[type="radio"]:checked)
+{
+    background-color: #000;
+    color: white;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #000;
+    color: white;
+}
+.donations-section .tab-pane a,
+.donations-section .tab-pane button
+ {
+    background-color: white;
+    color: #000;
 }
