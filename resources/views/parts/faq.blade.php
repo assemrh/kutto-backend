@@ -6,7 +6,7 @@
                     class="img-fluid float-left d-block" style="min-height: 60vh; object-fit: cover;  border-radius:18px "
                     alt="" >
             </div>
-            <div class="col-lg-7 pl-4">
+            <div class="col-lg-7 pl-4 mt-5 mt-md-auto">
                 <div class="faq-wrapper">
                     <div class="section-title mb-35">
                         <h5 class="sub-title">FAQ Question</h5>
