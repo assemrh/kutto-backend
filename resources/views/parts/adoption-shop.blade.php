@@ -1,11 +1,11 @@
 @php
     $pets = [
-        ['img' => '/img/images/pets/1453web-06.jpg'],
-        ['img' => '/img/images/pets/1453web-07.jpg'],
-        ['img' => '/img/images/pets/1453web-08.jpg'],
-        ['img' => '/img/images/pets/1453web-09.jpg'],
-        ['img' => '/img/images/pets/1453web-10.jpg'],
-        ['img' => '/img/images/pets/1453web-11.jpg'],
+        ['img' => asset('assets/img/images/pets/1453web-06.jpg')],
+        ['img' => asset('assets/img/images/pets/1453web-07.jpg')],
+        ['img' => asset('assets/img/images/pets/1453web-08.jpg')],
+        ['img' => asset('assets/img/images/pets/1453web-09.jpg')],
+        ['img' => asset('assets/img/images/pets/1453web-10.jpg')],
+        ['img' => asset('assets/img/images/pets/1453web-11.jpg')],
     ];
 @endphp
 <section class="adoption-shop-area">
@@ -14,7 +14,7 @@
             <div class="col-xl-7 col-lg-9">
                 <div class="section-title text-center mb-65">
                     <div class="section-icon">
-                        <img src="{{ asset('assets/img/icon/pawprint.png') }}" alt="" >
+                        <img src="{{ asset('assets/img/icon/pawprint.png') }}" alt="">
                     </div>
                     <h5 class="sub-title">Meet the animals</h5>
                     <h2 class="title">
@@ -35,9 +35,9 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="adoption-shop-item">
                         <div class="adoption-shop-thumb">
-                            <img src="{{ $item['img'] }}" alt="" >
+                            <img src="{{ $item['img'] }}" alt="">
                             <a href="/shop-details" class="btn">
-                                Adoption <img src="{{ asset('assets/img/icon/w_pawprint.png') }}" alt="" >
+                                Adoption <img src="{{ asset('assets/img/icon/w_pawprint.png') }}" alt="">
                             </a>
                         </div>
                         <div class="adoption-shop-content">
@@ -47,11 +47,11 @@
                             <div class="adoption-meta">
                                 <ul>
                                     <li>
-                                        <i class="fas fa-cog" ></i>
+                                        <i class="fas fa-cog"></i>
                                         <a href="#">Siberian Husky</a>
                                     </li>
                                     <li>
-                                        <i class="far fa-calendar-alt" ></i> Birth : 2021
+                                        <i class="far fa-calendar-alt"></i> Birth : 2021
                                     </li>
                                 </ul>
                             </div>

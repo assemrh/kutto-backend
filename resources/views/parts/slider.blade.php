@@ -1,8 +1,7 @@
 <section class="slider-area">
     <div class="slider slider-active">
         <div class="slide">
-            <div class="single-slider slider-bg d-flex align-items-md-center align-items-end pb-4 pb-md-0"
-                style="background-image: url('/img/slider/1453webcltuo-05.jpg')">
+            <div class="single-slider slider-bg d-flex align-items-md-center align-items-start p-5 p-md-0">
                 <div class="container-xl custom-container">
                     <div class="row">
                         <div class="col-xl-7 col-lg-7 col-md-10">
@@ -27,8 +26,8 @@
                                     </p>
                                 </div>
                                 <a href="/doglist" class="btn" data-animation="fadeInUpBig" data-delay=".6s"
-                                    data-duration="1.2s">View More <img src="{{ asset('assets/img/icon/w_pawprint.png') }}"
-                                        alt="" />
+                                    data-duration="1.2s">View More <img
+                                        src="{{ asset('assets/img/icon/w_pawprint.png') }}" alt="" />
                                 </a>
                             </div>
                         </div>

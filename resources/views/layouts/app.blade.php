@@ -67,7 +67,7 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <!-- Preloader -->
     <div id="preloader">
-        <img src="img/preloader.gif" alt="">
+        <img src="{{asset('assets/img/preloader.gif')}}" alt="">
     </div>
     <!-- Preloader-end -->
 

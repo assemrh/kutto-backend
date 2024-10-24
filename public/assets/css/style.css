@@ -706,9 +706,8 @@ label {
 }
 .nav-logo img {
     width: 150px;
-
 }
- nav .logo img {
+nav .logo img {
     width: 256px;
     padding: 18px;
 }
@@ -1042,6 +1041,7 @@ label {
     background-size: cover;
     min-height: 793px;
     position: relative;
+    background-image: url("/assets/img/slider/1453webcltuo-05.jpg")
 }
 .slider-content {
     overflow: hidden;

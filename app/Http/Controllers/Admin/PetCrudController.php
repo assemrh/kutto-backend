@@ -29,12 +29,17 @@ class PetCrudController extends CrudController
         CRUD::setModel(\App\Models\Pet::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/pet');
         CRUD::setEntityNameStrings('pet', 'pets');
-        CRUD::field([   // Upload
-            'name'      => 'image',
-            'label'     => 'Image',
-            'type'      => 'upload',
-            'withFiles' => true
-            ]);
+        // CRUD::field([   // Upload
+        //     'name' => 'image',
+        //     'label' => 'Image',
+        //     'type' => 'upload',
+        //     'attributes' => [
+        //         'aria-label' => 'Email Address',
+        //         'file' => 'file|mimes:jpeg,png,jpg,gif,svg',
+        //     ],
+        //     'file' => 'file|mimes:jpeg,png,jpg,gif,svg',
+        //     'withFiles' => true
+        // ]);
     }
 
     /**
@@ -47,11 +52,11 @@ class PetCrudController extends CrudController
     {
         CRUD::setFromDb(); // set columns from db columns.
         CRUD::field([   // Upload
-            'name'      => 'image',
-            'label'     => 'Image',
-            'type'      => 'upload',
+            'name' => 'image',
+            'label' => 'Image',
+            'type' => 'upload',
             'withFiles' => true
-            ]);
+        ]);
         /**
          * Columns can be defined using the fluent syntax:
          * - CRUD::column('price')->type('number');
@@ -69,11 +74,15 @@ class PetCrudController extends CrudController
         CRUD::setValidation(PetRequest::class);
         CRUD::setFromDb(); // set fields from db columns.
         CRUD::field([   // Upload
-            'name'      => 'image',
-            'label'     => 'Image',
-            'type'      => 'upload',
-            'withFiles' => true
-            ]);
+            'name' => 'image',
+            'label' => 'Image',
+            'type' => 'upload',
+            'withFiles' => true,
+            'attributes' => [
+                'accept' => 'image/*',
+            ],
+            'file' => 'file|mimes:jpeg,png,jpg,gif,svg',
+        ]);
         /**
          * Fields can be defined using the fluent syntax:
          * - CRUD::field('price')->type('number');
