@@ -64,7 +64,7 @@
                                         <a href="/">Home</a>
                                     </li>
                                     <li>
-                                        <a href="#" onclick="(e) => handleActive(e)">
+                                        <a href="{{Route("pets.index")}}" onclick="(e) => handleActive(e)">
                                             Dog List
                                         </a>
                                     </li>

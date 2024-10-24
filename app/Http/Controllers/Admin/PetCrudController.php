@@ -51,18 +51,23 @@ class PetCrudController extends CrudController
     protected function setupListOperation()
     {
         CRUD::setFromDb(); // set columns from db columns.
-        CRUD::field([   // Upload
-            'name' => 'image',
-            'label' => 'Image',
-            'type' => 'upload',
-            'withFiles' => true
-        ]);
+        CRUD::column('image')->type('image')->prefix('/storage/');;
+
         /**
          * Columns can be defined using the fluent syntax:
          * - CRUD::column('price')->type('number');
          */
     }
+    protected function setupShowOperation()
+    {
+        CRUD::setFromDb(); // set columns from db columns.
+        CRUD::column('image')->type('image')->prefix('/storage/')->width('300px')->height("100%");
 
+        /**
+         * Columns can be defined using the fluent syntax:
+         * - CRUD::column('price')->type('number');
+         */
+    }
     /**
      * Define what happens when the Create operation is loaded.
      *
@@ -80,8 +85,7 @@ class PetCrudController extends CrudController
             'withFiles' => true,
             'attributes' => [
                 'accept' => 'image/*',
-            ],
-            'file' => 'file|mimes:jpeg,png,jpg,gif,svg',
+            ]
         ]);
         /**
          * Fields can be defined using the fluent syntax:
