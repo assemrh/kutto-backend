@@ -190,7 +190,7 @@
                             </div>
                             <div class="nav-logo">
                                 <a href="/">
-                                    <img src="{{ asset('assets/img/logo/logo.png') }}" alt="" title="true">
+                                    <img src="{{ asset('assets/img/logo/1453sokakhayvanlar-logo-16.png') }}" alt="" title="true">
                                 </a>
                             </div>
                             <div class="menu-outer"></div>
