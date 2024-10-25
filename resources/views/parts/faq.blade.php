@@ -2,8 +2,8 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-5">
-                <img src="{{ asset('assets/img/images/smiley-woman-playing-with-dog-up-adoption.jpg') }}"
-                    class="img-fluid float-left d-block" style="min-height: 60vh; object-fit: cover;  border-radius:18px "
+                <img src="{{ asset('assets/img/images/smiley-woman-with-cute-dog-waiting-be-adopted-by-someone.png') }}"
+                    class="img-fluid float-left shaped-bg d-block" style="min-height: 60vh; object-fit: cover; "
                     alt="" >
             </div>
             <div class="col-lg-7 pl-4 mt-5 mt-md-auto">
