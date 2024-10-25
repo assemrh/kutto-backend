@@ -4194,3 +4194,6 @@ button {
 .tab-content>.active {
     display: flex;
 }
+.shaped-bg {
+    border-radius: 38% 62% 28% 59% / 31% 45% 39% 69%;
+}

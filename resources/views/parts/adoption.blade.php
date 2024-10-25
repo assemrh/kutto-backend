@@ -3,7 +3,7 @@
         <div class="row align-items-center align-items-xl-end justify-content-center">
             <div class="col-xl-7 col-lg-6 col-md-10 order-0 order-lg-2">
                 <div class="adoption-img">
-                    <img class="img-fluid" src="{{ asset('assets/img/images/image_2024_10_25T09_26_39_257Z.png') }}"
+                    <img class="img-fluid shaped-bg" src="{{ asset('assets/img/images/image_2024_10_25T09_26_39_257Z.png') }}"
                     alt="">
                 </div>
             </div>
@@ -20,5 +20,5 @@
             </div>
         </div>
     </div>
-    <div class="adoption-shape"><img src="{{ asset('assets/img/images/adoption_shape.png') }}" alt="" ></div>
+    <div class="adoption-shape"><img class="" src="{{ asset('assets/img/images/adoption_shape.png') }}" alt="" ></div>
 </section>

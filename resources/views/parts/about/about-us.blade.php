@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-4 order-0 order-lg-2">
-                <img class="img-fluid"
+                <img class="img-fluid shaped-bg"
                     src="{{ asset('assets/img/images/smiley-woman-with-cute-dog-waiting-be-adopted-by-someone.png') }}"
                     alt="">
 
