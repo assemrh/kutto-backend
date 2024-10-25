@@ -3,7 +3,8 @@
         <div class="row align-items-center align-items-xl-end justify-content-center">
             <div class="col-xl-7 col-lg-6 col-md-10 order-0 order-lg-2">
                 <div class="adoption-img">
-                    <img src="{{ asset('assets/img/images/close-up-adorable-cocker-spaniel.jpg') }}" alt="" >
+                    <img class="img-fluid" src="{{ asset('assets/img/images/image_2024_10_25T09_26_39_257Z.png') }}"
+                    alt="">
                 </div>
             </div>
             <div class="col-xl-5 col-lg-6">

@@ -31,13 +31,15 @@
             </div>
             <div class="col-md-5 col-12 mt-4 mt-md-0">
                 <div class="card glassy-card rounded-0 h-100">
-                    <div class="card-body h-100">
-                        @include('parts.donation.donation-navs')
-                    </div>
+                    @include('parts.donation.donation-navs')
                 </div>
             </div>
 
         </div>
     </div>
+
+</section>
+<section>
+    @include('parts.donation.bank-accounts')
 
 </section>

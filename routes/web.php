@@ -11,3 +11,11 @@ Route::get('/donations-and-sponsorships', [\App\Http\Controllers\HomeController:
 Route::resource("posts", \App\Http\Controllers\PostController::class);
 Route::resource("pets", \App\Http\Controllers\PetController::class);
 Route::resource("home", \App\Http\Controllers\HomeController::class);
+
+Route::get('locale/{locale}', function ($locale) {
+    if (in_array($locale, ['en', 'tr'])) {
+        session(['locale' => $locale]);
+        app()->setLocale($locale);
+    }
+    return redirect()->back();
+});

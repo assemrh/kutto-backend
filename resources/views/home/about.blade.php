@@ -8,7 +8,7 @@ import AdoptionGallery from '../components/adoptions/AdoptionGallery'
 
 @extends('layouts.app')
 @section('content')
-<x-breadcrumb title="{{ __('About Us') }}" />
+    <x-breadcrumb title="{{ __('About Us') }}" />
     @include('parts.about.about-us')
     @include('parts.about.faq')
 @endsection
