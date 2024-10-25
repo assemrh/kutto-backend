@@ -7,13 +7,13 @@
                         <div class="f-logo">
                             <a href="/">
                                 <img src="{{ asset('assets/img/logo/1453sokakhayvanlar-logo-16.png') }}" alt=""
-                                    style=" width: 256px " >
+                                    style=" width: 256px ">
                             </a>
                         </div>
                         <div class="footer-text"></div>
                         <div class="footer-contact">
                             <div class="icon">
-                                <i class="fas fa-headphones" ></i>
+                                <i class="fas fa-headphones"></i>
                             </div>
                             <div class="content">
                                 <h4 class="title">
@@ -26,22 +26,22 @@
                             <ul>
                                 <li>
                                     <a href="#">
-                                        <i class="fab fa-facebook-f" ></i>
+                                        <i class="fab fa-facebook-f"></i>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <i class="fab fa-twitter" ></i>
+                                        <i class="fab fa-twitter"></i>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <i class="fab fa-youtube" ></i>
+                                        <i class="fab fa-youtube"></i>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <i class="fab fa-linkedin-in" ></i>
+                                        <i class="fab fa-linkedin-in"></i>
                                     </a>
                                 </li>
                             </ul>
@@ -115,32 +115,32 @@
                             <ul>
                                 <li>
                                     <a href="#">
-                                        <img src="{{ asset('assets/img/images/insta_img01.png') }}" alt="" >
+                                        <img src="{{ asset('assets/img/images/insta_img01.png') }}" alt="">
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="{{ asset('assets/img/images/insta_img02.png') }}" alt="" >
+                                        <img src="{{ asset('assets/img/images/insta_img02.png') }}" alt="">
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="{{ asset('assets/img/images/insta_img03.png') }}" alt="" >
+                                        <img src="{{ asset('assets/img/images/insta_img03.png') }}" alt="">
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="{{ asset('assets/img/images/insta_img04.png') }}" alt="" >
+                                        <img src="{{ asset('assets/img/images/insta_img04.png') }}" alt="">
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="{{ asset('assets/img/images/insta_img05.png') }}" alt="" >
+                                        <img src="{{ asset('assets/img/images/insta_img05.png') }}" alt="">
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="{{ asset('assets/img/images/insta_img06.png') }}" alt="" >
+                                        <img src="{{ asset('assets/img/images/insta_img06.png') }}" alt="">
                                     </a>
                                 </li>
                             </ul>
@@ -150,10 +150,10 @@
             </div>
         </div>
         <div class="footer-shape">
-            <img src="{{ asset('assets/img/images/footer_shape01.png') }}" alt="" >
+            <img src="{{ asset('assets/img/images/footer_shape01.png') }}" alt="">
         </div>
         <div class="footer-shape shape-two">
-            <img src="{{ asset('assets/img/images/footer_shape02.png') }}" alt="" >
+            <img src="{{ asset('assets/img/images/footer_shape02.png') }}" alt="">
         </div>
     </div>
     <div class="copyright-area">
@@ -161,7 +161,8 @@
             <div class="row">
                 <div class="col-md-8">
                     <div class="copyright-text">
-                        <p>Copyright © 2022 TM Marketing. All Rights Reserved.</p>
+                        <p>Copyright © {{ date('Y') }} <a class="text-white" href="https://apex8.io/"
+                                target="_blank">Apex8</a> . All Rights Reserved.</p>
                     </div>
                 </div>
                 <div class="col-md-4 d-none d-md-block">
@@ -169,20 +170,12 @@
                         <div class="dropdown">
                             <button class="dropdown-toggle" type="button" id="dropdownMenuButton2"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img src="{{ asset('assets/img/icon/united-states.png') }}" alt="" > English
+                                <img src="{{ asset('assets/img/icon/united-states.png') }}" alt=""> English
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                                <Link class="dropdown-item" to="/">
-                                <img src="{{ asset('assets/img/icon/russia.png') }}" alt="" >
-                                Russia
-                                </a>
-                                <Link class="dropdown-item" to="/">
-                                <img src="{{ asset('assets/img/icon//thailand.png') }}" alt="" >
-                                Thailand
-                                </a>
-                                <Link class="dropdown-item" to="/">
-                                <img src="{{ asset('assets/img/icon/india.png') }}" alt="" >
-                                India
+                                <a class="dropdown-item" href="/">
+                                    <img src="{{ asset('assets/img/icon/united-states.png') }}" alt="">
+                                    English
                                 </a>
                             </div>
                         </div>
