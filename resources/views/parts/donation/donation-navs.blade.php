@@ -11,7 +11,7 @@
             type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Be a Sponser</button>
     </li>
 </ul>
-<div class="tab-content donations-section" id="pills-tabContent" style="height: 85%">
+<div class="tab-content donations-section" id="pills-tabContent" >
     @for ($i = 1; $i < 3; $i++)
         <div @class(['tab-pane', 'h-100', 'flex-column' , 'fade', 'show' => $i === 1, 'active' => $i === 1]) id="pills-{{ $i }}" role="tabpanel" aria-labelledby="pills-tab-1">
             <div class="contact-wrap-content d-flex"
