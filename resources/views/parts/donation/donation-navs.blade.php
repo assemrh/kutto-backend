@@ -11,9 +11,9 @@
             type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Be a Sponser</button>
     </li>
 </ul>
-<div class="tab-content donations-section" id="pills-tabContent">
+<div class="tab-content donations-section" id="pills-tabContent" style="height: 85%">
     @for ($i = 1; $i < 3; $i++)
-        <div @class(['tab-pane', 'fade', 'show' => $i === 1, 'active' => $i === 1]) id="pills-{{ $i }}" role="tabpanel" aria-labelledby="pills-tab-1">
+        <div @class(['tab-pane', 'h-100', 'flex-column' , 'fade', 'show' => $i === 1, 'active' => $i === 1]) id="pills-{{ $i }}" role="tabpanel" aria-labelledby="pills-tab-1">
             <div class="contact-wrap-content d-flex"
                 style="flex-wrap:wrap; justify-content:space-between; gap: 1rem ; text-align:center;">
                 @foreach ($amounts as $key => $value)
@@ -28,16 +28,15 @@
 
             <div class="mb-3 mt-5">
                 <div class="input-group">
-                    <input type="text" class="form-control donate-value-end" aria-describedby="validatedInputGroupPrepend" required>
+                    <input type="text" class="form-control donate-value-end" aria-describedby="validatedInputGroupPrepend" placeholder="1,000,000" required>
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="validatedInputGroupPrepend">₺</span>
                     </div>
                 </div>
             </div>
-            <div class="w-100 text-center mt-5">
+            <div class="w-100 text-center mt-auto">
                 <button class="nav-link btn btn-dark border-0 w-100 justify-content-center" type="button">Donate</button>
             </div>
         </div>
     @endfor
-    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
 </div>

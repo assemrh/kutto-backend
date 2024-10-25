@@ -4190,3 +4190,7 @@ a,
 button {
     color: #000;
 }
+
+.tab-content>.active {
+    display: flex;
+}

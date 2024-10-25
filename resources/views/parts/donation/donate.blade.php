@@ -1,7 +1,7 @@
 <section class="px-5 py-5 my-5 " style="background-image: url('/assets/img/bg/counter_bg.jpg')">
 
     <div class="container text-center">
-        <div class="row align-items-start">
+        <div class="row align-items-stretch">
             <div class="col-md-7 col-12">
                 <div class="card border-0 glassy-card ">
                     <img src="{{ asset('assets/img/images/woman-holding-adorable-dog-shelter.webp') }}"
@@ -30,8 +30,8 @@
                 </div>
             </div>
             <div class="col-md-5 col-12">
-                <div class="card glassy-card rounded-0">
-                    <div class="card-body">
+                <div class="card glassy-card rounded-0 h-100">
+                    <div class="card-body h-100">
                         @include('parts.donation.donation-navs')
                     </div>
                 </div>
