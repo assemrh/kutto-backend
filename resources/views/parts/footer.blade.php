@@ -50,30 +50,38 @@
                 </div>
                 <div class="col-2">
                     <div class="footer-widget">
-                        <h4 class="fw-title">Our Policies</h4>
+                        <h4 class="fw-title">{{ __('Quick Menu') }}</h4>
                         <div class="fw-link">
                             <ul>
                                 <li>
-                                    <a href="#">Privacy Policy</a>
+                                    <a href="/">Home</a>
                                 </li>
                                 <li>
-                                    <a href="#">Terms and Conditions</a>
+                                    <a href="{{ Route('about-us') }}">
+                                        About us
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="#">Editorial Policy</a>
+                                    <a href="{{ Route('pets.index') }}">
+                                        Dog List
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="#">Return Policy</a>
+                                    <a href="{{ Route('donatation') }}">
+                                        Donations And Sponsorships
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="#">IP Policy</a>
+                                    <a href="{{ Route('posts.index') }}">
+                                        Blog
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="#">Grievance Redressal Policy</a>
+                                    <a href="{{ Route('contact') }}">
+                                        Contact
+                                    </a>
                                 </li>
-                                <li>
-                                    <a href="#">Our Conditions</a>
-                                </li>
+                               
                             </ul>
                         </div>
                     </div>
