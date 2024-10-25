@@ -60,30 +60,42 @@
                             </div>
                             <div class="navbar-wrap main-menu d-none d-lg-flex">
                                 <ul class="navigation">
-                                    <li class="active ">
+                                    <li @class([
+                                        'active' => request()->routeIs('home'),
+                                    ])>
                                         <a href="/">Home</a>
                                     </li>
-                                    <li>
-                                        <a href="{{ Route('pets.index') }}" onclick="(e) => handleActive(e)">
-                                            Dog List
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="{{ Route('donatation') }}" onclick="(e) => handleActive(e)">
-                                            Donations And Sponsorships
-                                        </a>
-                                    </li>
-                                    <li class="">
-                                        <a href="{{ Route('posts.index') }}" onclick="(e) => handleActive(e)">
-                                            Blog
-                                        </a>
-                                    </li>
-                                    <li class="">
+                                    <li @class([
+                                        'active' => request()->routeIs('about-us'),
+                                    ])>
                                         <a href="{{ Route('about-us') }}" onclick="(e) => handleActive(e)">
                                             About us
                                         </a>
                                     </li>
-                                    <li>
+                                    <li @class([
+                                        'active' => request()->routeIs('pets.*'),
+                                    ])>
+                                        <a href="{{ Route('pets.index') }}" onclick="(e) => handleActive(e)">
+                                            Dog List
+                                        </a>
+                                    </li>
+                                    <li @class([
+                                        'active' => request()->routeIs('donatation'),
+                                    ])>
+                                        <a href="{{ Route('donatation') }}" onclick="(e) => handleActive(e)">
+                                            Donations And Sponsorships
+                                        </a>
+                                    </li>
+                                    <li @class([
+                                        'active' => request()->routeIs('posts.*'),
+                                    ])>
+                                        <a href="{{ Route('posts.index') }}" onclick="(e) => handleActive(e)">
+                                            Blog
+                                        </a>
+                                    </li>
+                                    <li @class([
+                                        'active' => request()->routeIs('contact'),
+                                    ])>
                                         <a href="{{ Route('contact') }}" onclick="(e) => handleActive(e)">
                                             Contact
                                         </a>

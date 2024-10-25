@@ -8,22 +8,20 @@
     <link rel="icon" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta name="description" content="1453 Association for the Protection and Survival of Street Animals  " />
+    <meta name="description" content="{{ __('Description') }}" />
     <link rel="apple-touch-icon" href="/favicon.png" />
 
     <!-- Primary Meta Tags -->
-    <title>{{ config('app.name', '1453 Sokak Hayvanlarını Koruma ve Yaşatma Derneği') }}</title>
+    <title>{{ config('app.name', __('Title')) }}</title>
 
-    <meta name="title" content="1453 Sokak Hayvanlarını Koruma ve Yaşatma Derneği" />
-    <meta name="description"
-        content="1453 Sokak Hayvanlarını Koruma ve Yaşatma Derneği, sokak hayvanlarının korunması, bakımı ve yaşatılmasını amaçlayan bir dernek olarak, hayvanlara daha iyi bir yaşam sağlamak için çalışmalar yürütmektedir. Bağış yaparak ve gönüllü olarak siz de destek olabilirsiniz." />
+    <meta name="title" content="{{ __('Title') }}" />
+    <meta name="description" content="{{ __('Description') }}" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://1453sokakhayvanlari.com/" />
-    <meta property="og:title" content="1453 Sokak Hayvanlarını Koruma ve Yaşatma Derneği" />
-    <meta property="og:description"
-        content="1453 Sokak Hayvanlarını Koruma ve Yaşatma Derneği, sokak hayvanlarının korunması, bakımı ve yaşatılmasını amaçlayan bir dernek olarak, hayvanlara daha iyi bir yaşam sağlamak için çalışmalar yürütmektedir. Bağış yaparak ve gönüllü olarak siz de destek olabilirsiniz." />
+    <meta property="og:title" content="{{ __('Title') }}" />
+    <meta property="og:description" content="{{ __('Description') }}" />
     <meta property="og:image" content="{{ url('/img/meta-tags-2.jpg') }}" />
     <meta name="robots" content="max-image-preview:large">
     <meta property="og:image:type" content="image/jpeg">
@@ -33,9 +31,8 @@
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://1453sokakhayvanlari.com/" />
-    <meta property="twitter:title" content="1453 Sokak Hayvanlarını Koruma ve Yaşatma Derneği" />
-    <meta property="twitter:description"
-        content="1453 Sokak Hayvanlarını Koruma ve Yaşatma Derneği, sokak hayvanlarının korunması, bakımı ve yaşatılmasını amaçlayan bir dernek olarak, hayvanlara daha iyi bir yaşam sağlamak için çalışmalar yürütmektedir. Bağış yaparak ve gönüllü olarak siz de destek olabilirsiniz." />
+    <meta property="twitter:title" content="{{ __('Title') }}" />
+    <meta property="twitter:description" content="{{ __('Description') }}" />
     <meta property="twitter:image" content="{{ url('/img/meta-tags-2.jpg') }}" />
 
     <!-- Meta Tags Generated with https://1453sokakhayvanları.com -->
