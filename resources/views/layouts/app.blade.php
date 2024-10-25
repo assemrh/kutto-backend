@@ -24,7 +24,7 @@
     <meta property="og:title" content="1453 Sokak Hayvanlarını Koruma ve Yaşatma Derneği" />
     <meta property="og:description"
         content="1453 Sokak Hayvanlarını Koruma ve Yaşatma Derneği, sokak hayvanlarının korunması, bakımı ve yaşatılmasını amaçlayan bir dernek olarak, hayvanlara daha iyi bir yaşam sağlamak için çalışmalar yürütmektedir. Bağış yaparak ve gönüllü olarak siz de destek olabilirsiniz." />
-    <meta property="og:image" content="https://kutto-eosin.vercel.app/img/meta-tags-2.jpg" />
+    <meta property="og:image" content="{{ url('/img/meta-tags-2.jpg') }}" />
     <meta name="robots" content="max-image-preview:large">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="250">
@@ -36,7 +36,7 @@
     <meta property="twitter:title" content="1453 Sokak Hayvanlarını Koruma ve Yaşatma Derneği" />
     <meta property="twitter:description"
         content="1453 Sokak Hayvanlarını Koruma ve Yaşatma Derneği, sokak hayvanlarının korunması, bakımı ve yaşatılmasını amaçlayan bir dernek olarak, hayvanlara daha iyi bir yaşam sağlamak için çalışmalar yürütmektedir. Bağış yaparak ve gönüllü olarak siz de destek olabilirsiniz." />
-    <meta property="twitter:image" content="https://kutto-eosin.vercel.app/img/meta-tags-2.jpg" />
+    <meta property="twitter:image" content="{{ url('/img/meta-tags-2.jpg') }}" />
 
     <!-- Meta Tags Generated with https://1453sokakhayvanları.com -->
 
