@@ -11,11 +11,4 @@ import AdoptionGallery from '../components/adoptions/AdoptionGallery'
 <x-breadcrumb title="{{ __('About Us') }}" />
     @include('parts.about.about-us')
     @include('parts.about.faq')
-    @include('parts.faq')
-
-    <AdoptionBreadcumb />
-    <AdoptionSlider />
-    <AdoptionPuppies />
-    <AdoptionFaq />
-    <AdoptionGallery />
 @endsection
