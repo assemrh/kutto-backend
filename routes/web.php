@@ -18,7 +18,7 @@ Route::resource("home", \App\Http\Controllers\HomeController::class);
 Route::get('/locale/{locale?}', [LanguageController::class, 'locale'])->name('set-locale');
 Route::get('/locale/{locale}', [LanguageController::class, 'locale'])->name('locale.switch');
 
-Route::get('phpinfo', function ($locale) {
+Route::get('phpinfo', function () {
 
     return "<?php
     phpinfo();
