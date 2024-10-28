@@ -14,7 +14,7 @@ class LanguageController extends Controller
 
 
         if (isset($locale) && in_array($locale, ['en', 'tr'])) {
-            $request->session()->put('locale', $locale);
+            Session::put('locale', $locale);
             App::setLocale($locale);
         }
         return back()->with('locale', $locale);
