@@ -15,7 +15,8 @@ return Application::configure(basePath: dirname(__DIR__))
         //
         //$middleware->append(\Illuminate\Session\Middleware\StartSession::class);
         $middleware->append(\App\Http\Middleware\SetLocale::class);
-
+        $middleware->appendToGroup('web', \Illuminate\Session\Middleware\StartSession::class);
+        $middleware->appendToGroup('web', \Illuminate\View\Middleware\ShareErrorsFromSession::class);
         $middleware->appendToGroup('web', \App\Http\Middleware\SetLocale::class);
 
     })
