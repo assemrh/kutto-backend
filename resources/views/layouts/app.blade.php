@@ -12,7 +12,7 @@
     <link rel="apple-touch-icon" href="/favicon.png" />
 
     <!-- Primary Meta Tags -->
-    <title>{{ config('app.name', __('Title')) }}</title>
+    <title>{{ __('Title') }}</title>
 
     <meta name="title" content="{{ __('Title') }}" />
     <meta name="description" content="{{ __('Description') }}" />
