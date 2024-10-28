@@ -19,7 +19,7 @@ class SetLocale
         if ($request->session()->has('locale')) {
             $locale = $request->session()->get('locale');
         } else {
-            $locale = 'en';
+            $locale = 'tr';
         }
 
         $request->session()->put('locale', $locale);
