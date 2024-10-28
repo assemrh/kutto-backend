@@ -12,10 +12,9 @@ class LanguageController extends Controller
     public function locale(Request $request, $locale = null)
     {
 
-        $request->session()->regenerate();
 
         if (isset($locale) && in_array($locale, ['en', 'tr'])) {
-            session()->put('locale', $locale);
+            $request->session()->put('locale', $locale);
             App::setLocale($locale);
         }
         return back()->with('locale', $locale);
