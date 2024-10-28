@@ -63,41 +63,46 @@
                                     <li @class([
                                         'active' => request()->routeIs('home'),
                                     ])>
-                                        <a href="/">Home</a>
+                                        <a href="/">{!! __("Home") !!} </a>
                                     </li>
                                     <li @class([
                                         'active' => request()->routeIs('about-us'),
                                     ])>
                                         <a href="{{ Route('about-us') }}" onclick="(e) => handleActive(e)">
-                                            About us
+                                            {!! __("About us") !!}
+
                                         </a>
                                     </li>
                                     <li @class([
                                         'active' => request()->routeIs('pets.*'),
                                     ])>
                                         <a href="{{ Route('pets.index') }}" onclick="(e) => handleActive(e)">
-                                            Dog List
+                                            {!! __("Dog List") !!}
+
                                         </a>
                                     </li>
                                     <li @class([
                                         'active' => request()->routeIs('donatation'),
                                     ])>
                                         <a href="{{ Route('donatation') }}" onclick="(e) => handleActive(e)">
-                                            Donations And Sponsorships
+                                            {!! __("Donations And Sponsorships") !!}
+
                                         </a>
                                     </li>
                                     <li @class([
                                         'active' => request()->routeIs('posts.*'),
                                     ])>
                                         <a href="{{ Route('posts.index') }}" onclick="(e) => handleActive(e)">
-                                            Blog
+                                            {!! __("Blog") !!}
+
                                         </a>
                                     </li>
                                     <li @class([
                                         'active' => request()->routeIs('contact'),
                                     ])>
                                         <a href="{{ Route('contact') }}" onclick="(e) => handleActive(e)">
-                                            Contact
+                                            {!! __("Contact") !!}
+
                                         </a>
                                     </li>
                                 </ul>
@@ -112,7 +117,8 @@
 
                                     <li class="header-btn">
                                         <a href="#" class="btn">
-                                            Adopt Here
+                                            {!! __("Adopt Here") !!}
+
                                             <img src="{{ asset('assets/img/icon/w_pawprint.png') }}" alt="">
                                         </a>
                                     </li>
@@ -181,7 +187,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="title">... Search Here ...</h2>
+                        <h2 class="title">{!! __("... Search Here ...") !!}</h2>
                         <div class="search-form">
                             <form action="#">
                                 <input type="text" name="search" placeholder="Type keywords here">

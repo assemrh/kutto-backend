@@ -9,12 +9,12 @@
             </div>
             <div class="col-xl-5 col-lg-6">
                 <div class="adoption-content">
-                    <h2 class="title">You can bring <span>Hope</span> to our furry friends on the streets! </h2>
+                    <h2 class="title">{!! __("You can bring <span>Hope</span> to our furry friends on the streets!") !!}</h2>
                     <p>
-                        Every day, our furry friends on the streets struggle to survive and need your help. Be their
-                        hope by adopting or sponsoring, and make a difference in their lives!
+                        {!! __("Every day, our furry friends on the streets struggle to survive and need your help. Be their hope by adopting or sponsoring, and make a difference in their lives!") !!}
+
                     </p>
-                    <a href="/adoption" class="btn">Adoption <img src="{{ asset('assets/img/icon/w_pawprint.png') }}"
+                    <a href="/adoption" class="btn">{!! __("Adoption") !!} <img src="{{ asset('assets/img/icon/w_pawprint.png') }}"
                             alt="" ></a>
                 </div>
             </div>

@@ -6,11 +6,11 @@
     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
         <li class="nav-item w-50 px-1" role="presentation">
             <button class="nav-link border-0 w-100 active" id="pills-tab-1" data-toggle="pill" data-target="#pills-1"
-                type="button" role="tab" aria-controls="pills-home" aria-selected="true">Donate</button>
+                type="button" role="tab" aria-controls="pills-home" aria-selected="true">{!! __("Donate") !!}</button>
         </li>
         <li class="nav-item w-50 px-1" role="presentation">
             <button class="nav-link border-0 w-100" id="pills-tab-2" data-toggle="pill" data-target="#pills-2"
-                type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Be a Sponser</button>
+                type="button" role="tab" aria-controls="pills-profile" aria-selected="false">{!! __("Be a Sponser") !!}</button>
         </li>
     </ul>
 </div>
@@ -54,6 +54,6 @@
 </div>
 <div class="card-footer  border-0 bg-transparent ">
     <button class="nav-link btn btn-dark border-0 w-100 justify-content-center"
-    type="button">İlerle</button>
+    type="button">{!! __("Next") !!}</button>
 </div>
 

@@ -9,24 +9,18 @@
                                 <div class="slider-title">
                                     <h2 class="title" data-animation="fadeInUpBig" data-delay=".2s"
                                         data-duration="1.2s">
-                                        Every animal needs <span>love</span>, and every person needs a
-                                        <span>friend</span>.
+                                        {!! __('slider-title') !!}
+
                                     </h2>
                                 </div>
                                 <div class="slider-desc">
                                     <p class="desc" data-animation="fadeInUpBig" data-delay=".4s"
                                         data-duration="1.2s">
-                                        You can make a big difference in the life of a stray animal by giving them a
-                                        home.<br /> Share your love, gain a new friend, and create unforgettable
-                                        memories together.
-
-
-
-
+                                        {!! __('slider-desc') !!}
                                     </p>
                                 </div>
                                 <a href="/doglist" class="btn" data-animation="fadeInUpBig" data-delay=".6s"
-                                    data-duration="1.2s">View More <img
+                                    data-duration="1.2s">{!! __('slider-desc') !!} <img
                                         src="{{ asset('assets/img/icon/w_pawprint.png') }}" alt="" />
                                 </a>
                             </div>

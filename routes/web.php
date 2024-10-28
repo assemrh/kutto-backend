@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LanguageController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -14,10 +15,4 @@ Route::resource("pets", \App\Http\Controllers\PetController::class);
 Route::resource("home", \App\Http\Controllers\HomeController::class);
 
 
-Route::get('locale/{locale}', function ($locale) {
-    if (in_array($locale, ['en', 'tr'])) {
-        session(['locale' => $locale]);
-        app()->setLocale($locale);
-    }
-    return redirect()->back();
-});
+Route::get('/locale/{locale?}', [LanguageController::class, 'locale'])->name('set-locale');

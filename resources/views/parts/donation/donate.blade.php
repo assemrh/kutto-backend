@@ -8,21 +8,19 @@
                         class="card-img-top" alt="...">
 
                     <div class="card-body py-5 my-2">
-                        <h2 class="title">You Can Make a Difference in the Lives of Dogs<span
-                                class="text-danger">!</span></h2>
+                        <h2 class="title">{!! __('You Can Make a Difference in the Lives of Dogs') !!}<span class="text-danger">!</span></h2>
 
                         {{-- <h5 class="card-title">You Can Make a Difference in the Lives of Dogs</h5> --}}
-                        <p class="card-text">Every day, stray dogs face hunger, fear, and uncertainty. But with your
-                            help,
-                            we can change that. By donating, you provide food, medical care, and a safe place for these
-                            dogs
-                            to heal and find loving homes.
+                        <p class="card-text">
+                            {!! __(
+                                'Every day, stray dogs face hunger, fear, and uncertainty. But with your help, we can change that. By donating, you provide food, medical care, and a safe place for these dogs to heal and find loving homes.',
+                            ) !!}
                         </p>
-                        <p class="card-text">Your kindness transforms lives. With every donation, you give a dog a
-                            second
-                            chance at happiness. You have the power to make a real difference—help a stray dog today and
-                            be
-                            the reason their tail wags again.
+                        <p class="card-text">
+                            {!! __(
+                                'Your kindness transforms lives. With every donation, you give a dog a second chance at happiness. You have the power to make a real difference—help a stray dog today and be the reason their tail wags again.',
+                            ) !!}
+
                         </p>
 
 

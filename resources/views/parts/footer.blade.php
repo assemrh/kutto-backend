@@ -81,7 +81,7 @@
                                         Contact
                                     </a>
                                 </li>
-                               
+
                             </ul>
                         </div>
                     </div>
@@ -169,21 +169,24 @@
             <div class="row">
                 <div class="col-md-8">
                     <div class="copyright-text">
-                        <p>Copyright © {{ date('Y') }} <a class="text-white" href="https://apex8.io/"
-                                target="_blank">Apex8</a> . All Rights Reserved.</p>
+                        {!! __('copyright-text', ['year' => date('Y')]) !!}
                     </div>
                 </div>
                 <div class="col-md-4 d-none d-md-block">
                     <div class="footer-lang">
                         <div class="dropdown">
                             <button class="dropdown-toggle" type="button" id="dropdownMenuButton2"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img src="{{ asset('assets/img/icon/united-states.png') }}" alt=""> English
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
+                                    class="fas fa-globe"></i> {{ ' ' }} Language
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                                <a class="dropdown-item" href="/">
+                                <a class="dropdown-item" href="{{ route('set-locale', ['locale' => 'en']) }}">
                                     <img src="{{ asset('assets/img/icon/united-states.png') }}" alt="">
                                     English
+                                </a>
+                                <a class="dropdown-item" href="{{ route('set-locale', ['locale' => 'tr']) }}">
+                                    <img src="{{ asset('assets/img/icon/turkey_640.png') }}" alt="">
+                                    Turkish
                                 </a>
                             </div>
                         </div>

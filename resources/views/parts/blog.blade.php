@@ -19,17 +19,16 @@
                         <a href="/blog-details"><img src="{{ asset('assets/img/blog/blog_post_thumb01.jpg') }}"
                                 alt="" ></a>
                         <div class="blog-post-tag">
-                            <a href="/"><i class="flaticon-bookmark-1" ></i>Sharped</a>
+                            <a href="/"><i class="flaticon-bookmark-1" ></i>{!! __("Sharped") !!} </a>
                         </div>
                     </div>
                     <div class="blog-post-content">
                         <div class="blog-post-meta">
                             <ul>
-                                <li><i class="far fa-user" ></i><a href="/">Admin</a></li>
                                 <li><i class="far fa-bell" ></i> Mar 10, 2021</li>
                             </ul>
                         </div>
-                        <h3 class="title"><a href="blog-details">Working For Dog Adoption</a></h3>
+                        <h3 class="title"><a href="blog-details">{!! __("Working For Dog Adoption") !!}</a></h3>
                         <p>The best overall dog test is Embark Breed &amp; Health Kit view at Chewy.</p>
                         <a href="/blog-details" class="read-more">Read More <img
                                 src="{{ asset('assets/img/icon/pawprint.png') }}" alt="" ></a>
@@ -48,7 +47,6 @@
                     <div class="blog-post-content">
                         <div class="blog-post-meta">
                             <ul>
-                                <li><i class="far fa-user" ></i><a href="/">Admin</a></li>
                                 <li><i class="far fa-bell" ></i> Mar 12, 2021</li>
                             </ul>
                         </div>
@@ -71,7 +69,6 @@
                     <div class="blog-post-content">
                         <div class="blog-post-meta">
                             <ul>
-                                <li><i class="far fa-user" ></i><a href="/">Admin</a></li>
                                 <li><i class="far fa-bell"></i> Mar 12, 2021</li>
                             </ul>
                         </div>

@@ -16,16 +16,17 @@
                     <div class="section-icon">
                         <img src="{{ asset('assets/img/icon/pawprint.png') }}" alt="">
                     </div>
-                    <h5 class="sub-title">Meet the animals</h5>
+                    <h5 class="sub-title">{!! __('Meet the animals') !!}</h5>
                     <h2 class="title">
-                        Our Friends Waiting for Adoption or Sponsorship
+                        {!! __('Our Friends Waiting for Adoption or Sponsorship') !!}
+
                     </h2>
                     <p>
-                        These animals are waiting for a loving family and a safe home.
-                        Each of them is eager for a chance to start anew in their lives.
-                        By adopting or sponsoring them, you can seize the opportunity to
-                        change their lives. Take the first step to gain a new friend or
-                        bring hope to an animal!
+                        {!! __(
+                            'These animals are waiting for a loving family and a safe home. Each of them is eager for a chance to start anew in their lives. By adopting or sponsoring them, you can seize the opportunity to change their lives. Take the first step to gain a new friend or bring hope to an animal!',
+                        ) !!}
+
+
                     </p>
                 </div>
             </div>
@@ -37,7 +38,9 @@
                         <div class="adoption-shop-thumb">
                             <img src="{{ $item['img'] }}" alt="">
                             <a href="/shop-details" class="btn">
-                                Adoption <img src="{{ asset('assets/img/icon/w_pawprint.png') }}" alt="">
+                                {!! __('Adoption') !!}
+
+                                <img src="{{ asset('assets/img/icon/w_pawprint.png') }}" alt="">
                             </a>
                         </div>
                         <div class="adoption-shop-content">
@@ -51,7 +54,7 @@
                                         <a href="#">Siberian Husky</a>
                                     </li>
                                     <li>
-                                        <i class="far fa-calendar-alt"></i> Birth : 2021
+                                        <i class="far fa-calendar-alt"></i> {!! __('Old') !!} : 2021
                                     </li>
                                 </ul>
                             </div>

@@ -3,11 +3,11 @@
         <div class="col-xl-7 col-lg-9">
             <div class="section-title text-center mb-65">
                 {{-- <div class="section-icon"><img src="img/icon/pawprint.png" alt=""></div> --}}
-                <h5 class="sub-title">Our Bank Accounts</h5>
-                <h2 class="title">Our Bank Accounts</h2>
+                <h5 class="sub-title">{!! __('Our Bank Accounts') !!}</h5>
+                <h2 class="title">{!! __('Our Bank Accounts') !!}</h2>
                 <p>
-                    Instead of paying online, you can use our bank accounts below. Please do not forget to make a
-                    payment notification after payment.
+                    {!! __('Instead of paying online, you can use our bank accounts below. Please do not forget to make a payment notification after payment.') !!}
+
                 </p>
             </div>
         </div>

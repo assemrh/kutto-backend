@@ -4,13 +4,13 @@
         <div class="row">
             <div class="col-12">
                 <div class="breadcrumb-content">
-                    <h2 class="title">Contact Us</h2>
+                    <h2 class="title">{!! __('Contact Us') !!}</h2>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item">
-                                <Link to="/">Home</Link>
+                                <Link to="/">{!! __('Home') !!}</Link>
                             </li>
-                            <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                            <li class="breadcrumb-item active" aria-current="page">{!! __('Contact Us') !!}</li>
                         </ol>
                     </nav>
                 </div>
