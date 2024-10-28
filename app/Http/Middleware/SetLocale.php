@@ -21,8 +21,10 @@ class SetLocale
         } else {
             $locale = 'en';
         }
+
         Session::put('locale', $locale);
         App::setLocale($locale);
+        Session::save();
         return $next($request);
     }
 
