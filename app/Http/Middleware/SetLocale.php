@@ -24,6 +24,7 @@ class SetLocale
 
         session()->put('locale', $locale);
         App::setLocale($locale);
+        
         return $next($request);
     }
 

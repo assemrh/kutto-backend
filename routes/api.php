@@ -7,4 +7,4 @@ Route::get('/user', function (Request $request) {
     return $request->user();
 })->middleware('auth:sanctum');
 
-Route::apiResource("pets", \App\Http\Controllers\Api\PetController::class);
+//Route::apiResource("pets", \App\Http\Controllers\Api\PetController::class);
