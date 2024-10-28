@@ -3,6 +3,7 @@
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
+use Illuminate\Session\Middleware\StartSession;
 
 return Application::configure(basePath: dirname(__DIR__))
     ->withRouting(
@@ -15,7 +16,9 @@ return Application::configure(basePath: dirname(__DIR__))
         //
         //$middleware->append(\Illuminate\Session\Middleware\StartSession::class);
         $middleware->append(\App\Http\Middleware\SetLocale::class);
-        $middleware->appendToGroup('web', \Illuminate\Session\Middleware\StartSession::class);
+        $middleware->append(StartSession::class);
+
+        $middleware->appendToGroup('web', StartSession::class);
         $middleware->appendToGroup('web', \Illuminate\View\Middleware\ShareErrorsFromSession::class);
         $middleware->appendToGroup('web', \App\Http\Middleware\SetLocale::class);
 
