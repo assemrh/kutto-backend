@@ -15,12 +15,16 @@ return Application::configure(basePath: dirname(__DIR__))
     ->withMiddleware(function (Middleware $middleware) {
         //
         //$middleware->append(\Illuminate\Session\Middleware\StartSession::class);
-        $middleware->append(StartSession::class);
+        // $middleware->append(StartSession::class);
 
-        $middleware->appendToGroup('web', StartSession::class);
-        $middleware->appendToGroup('web', \Illuminate\View\Middleware\ShareErrorsFromSession::class);
-        $middleware->appendToGroup('web', \App\Http\Middleware\SetLocale::class);
-        $middleware->append(\App\Http\Middleware\SetLocale::class);  
+         $middleware->appendToGroup('web', StartSession::class);
+        //$middleware->appendToGroup('web', \Illuminate\View\Middleware\ShareErrorsFromSession::class);
+        // $middleware->appendToGroup('web', \App\Http\Middleware\SetLocale::class);
+         $middleware->appendToGroup('web', \App\Http\Middleware\HandleLocale::class);
+        /*$middleware->web(append: [
+            StartSession::class,
+            \App\Http\Middleware\HandleLocale::class,
+        ]);*/
 
     })
     ->withExceptions(function (Exceptions $exceptions) {

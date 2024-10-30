@@ -57,27 +57,27 @@
                                     <a href="/">Home</a>
                                 </li>
                                 <li>
-                                    <a href="{{ Route('about-us') }}">
+                                    <a href="{{ Route('about-us', app()->getLocale()) }}">
                                         About us
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="{{ Route('pets.index') }}">
+                                    <a href="{{ Route('pets.index', app()->getLocale()) }}">
                                         Dog List
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="{{ Route('donatation') }}">
+                                    <a href="{{ Route('donatation', app()->getLocale()) }}">
                                         Donations And Sponsorships
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="{{ Route('posts.index') }}">
+                                    <a href="{{ Route('posts.index', app()->getLocale()) }}">
                                         Blog
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="{{ Route('contact') }}">
+                                    <a href="{{ Route('contact', app()->getLocale()) }}">
                                         Contact
                                     </a>
                                 </li>

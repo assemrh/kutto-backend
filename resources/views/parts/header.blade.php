@@ -63,12 +63,12 @@
                                     <li @class([
                                         'active' => request()->routeIs('home'),
                                     ])>
-                                        <a href="/">{!! __("Home") !!} </a>
+                                        <a href="/{{app()->getLocale()}}">{!! __("Home") !!} </a>
                                     </li>
                                     <li @class([
                                         'active' => request()->routeIs('about-us'),
                                     ])>
-                                        <a href="{{ Route('about-us') }}" onclick="(e) => handleActive(e)">
+                                        <a href="{{ Route('about-us', app()->getLocale()) }}" onclick="(e) => handleActive(e)">
                                             {!! __("About us") !!}
 
                                         </a>
@@ -76,7 +76,7 @@
                                     <li @class([
                                         'active' => request()->routeIs('pets.*'),
                                     ])>
-                                        <a href="{{ Route('pets.index') }}" onclick="(e) => handleActive(e)">
+                                        <a href="{{ Route('pets.index', app()->getLocale()) }}" onclick="(e) => handleActive(e)">
                                             {!! __("Dog List") !!}
 
                                         </a>
@@ -84,7 +84,7 @@
                                     <li @class([
                                         'active' => request()->routeIs('donatation'),
                                     ])>
-                                        <a href="{{ Route('donatation') }}" onclick="(e) => handleActive(e)">
+                                        <a href="{{ Route('donatation', app()->getLocale()) }}" onclick="(e) => handleActive(e)">
                                             {!! __("Donations And Sponsorships") !!}
 
                                         </a>
@@ -92,7 +92,7 @@
                                     <li @class([
                                         'active' => request()->routeIs('posts.*'),
                                     ])>
-                                        <a href="{{ Route('posts.index') }}" onclick="(e) => handleActive(e)">
+                                        <a href="{{ Route('posts.index', app()->getLocale()) }}" onclick="(e) => handleActive(e)">
                                             {!! __("Blog") !!}
 
                                         </a>
@@ -100,7 +100,7 @@
                                     <li @class([
                                         'active' => request()->routeIs('contact'),
                                     ])>
-                                        <a href="{{ Route('contact') }}" onclick="(e) => handleActive(e)">
+                                        <a href="{{ Route('contact', app()->getLocale()) }}" onclick="(e) => handleActive(e)">
                                             {!! __("Contact") !!}
 
                                         </a>
