@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\session;
 class LanguageController extends Controller
 {
     //
-    public function locale(Request $request, $locale = null)
+    public function locale(Request $request, $locale )
     {
 
 
@@ -18,7 +18,7 @@ class LanguageController extends Controller
             $request->session()->save();
             App::setLocale($locale);
         }
-        return back()->with('locale', $locale);
+        return redirect(app()->getLocale());
     }
 
 }

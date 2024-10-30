@@ -19,12 +19,12 @@ class HandleLocale
         if ($request->method() === 'GET') {
             $segment = $request->segment(1);
 
-            if (!in_array($segment, ["tr", "en"])) {
+            if (!in_array($segment, ["tr", "en"]) && $segment !== "locale") {
                 $segments = $request->segments();
                 $fallback = session('locale') ?: config('app.fallback_locale');
                 array_unshift($segments, $fallback);
 
-                return redirect()->to(implode('/', $segments));
+                //return redirect()->to(implode('/', $segments));
             }
 
             session(['locale' => $segment]);
