@@ -24,7 +24,7 @@ class HandleLocale
                 $fallback = session('locale') ?: config('app.fallback_locale');
                 array_unshift($segments, $fallback);
 
-                //return redirect()->to(implode('/', $segments));
+                return redirect()->to(implode('/', $segments));
             }
 
             session(['locale' => $segment]);
